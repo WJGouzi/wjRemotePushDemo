@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47DDD021EF8C6D500F18DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DDD011EF8C6D500F18DAC /* main.m */; };
+		C47DDD051EF8C6D500F18DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DDD041EF8C6D500F18DAC /* AppDelegate.m */; };
+		C47DDD081EF8C6D500F18DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DDD071EF8C6D500F18DAC /* ViewController.m */; };
+		C47DDD0B1EF8C6D500F18DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47DDD091EF8C6D500F18DAC /* Main.storyboard */; };
+		C47DDD0D1EF8C6D500F18DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47DDD0C1EF8C6D500F18DAC /* Assets.xcassets */; };
+		C47DDD101EF8C6D500F18DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47DDD0E1EF8C6D500F18DAC /* LaunchScreen.storyboard */; };
+		C47DDD1B1EF8C6D500F18DAC /* wjRemotePushDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DDD1A1EF8C6D500F18DAC /* wjRemotePushDemoTests.m */; };
+		C47DDD291EF8C6F600F18DAC /* jcore-ios-1.1.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD261EF8C6F600F18DAC /* jcore-ios-1.1.3.a */; };
+		C47DDD2A1EF8C6F600F18DAC /* jpush-ios-3.0.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD271EF8C6F600F18DAC /* jpush-ios-3.0.5.a */; };
+		C47DDD2D1EF8C71000F18DAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD2C1EF8C71000F18DAC /* CFNetwork.framework */; };
+		C47DDD2F1EF8C71B00F18DAC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD2E1EF8C71B00F18DAC /* CoreFoundation.framework */; };
+		C47DDD311EF8C72300F18DAC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD301EF8C72300F18DAC /* CoreTelephony.framework */; };
+		C47DDD331EF8C72900F18DAC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD321EF8C72900F18DAC /* SystemConfiguration.framework */; };
+		C47DDD351EF8C73100F18DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD341EF8C73100F18DAC /* CoreGraphics.framework */; };
+		C47DDD371EF8C73C00F18DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD361EF8C73C00F18DAC /* Foundation.framework */; };
+		C47DDD391EF8C74300F18DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD381EF8C74300F18DAC /* UIKit.framework */; };
+		C47DDD3B1EF8C74B00F18DAC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD3A1EF8C74B00F18DAC /* Security.framework */; };
+		C47DDD3D1EF8C75200F18DAC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD3C1EF8C75200F18DAC /* libz.tbd */; };
+		C47DDD3F1EF8C75700F18DAC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD3E1EF8C75700F18DAC /* UserNotifications.framework */; };
+		C47DDD411EF8C76000F18DAC /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DDD401EF8C76000F18DAC /* libresolv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47DDD171EF8C6D500F18DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47DDCF51EF8C6D500F18DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47DDCFC1EF8C6D500F18DAC;
+			remoteInfo = wjRemotePushDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47DDCFD1EF8C6D500F18DAC /* wjRemotePushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wjRemotePushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47DDD011EF8C6D500F18DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47DDD031EF8C6D500F18DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47DDD041EF8C6D500F18DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47DDD061EF8C6D500F18DAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47DDD071EF8C6D500F18DAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47DDD0A1EF8C6D500F18DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47DDD0C1EF8C6D500F18DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47DDD0F1EF8C6D500F18DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47DDD111EF8C6D500F18DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47DDD161EF8C6D500F18DAC /* wjRemotePushDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wjRemotePushDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47DDD1A1EF8C6D500F18DAC /* wjRemotePushDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wjRemotePushDemoTests.m; sourceTree = "<group>"; };
+		C47DDD1C1EF8C6D500F18DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47DDD261EF8C6F600F18DAC /* jcore-ios-1.1.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.3.a"; sourceTree = "<group>"; };
+		C47DDD271EF8C6F600F18DAC /* jpush-ios-3.0.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.5.a"; sourceTree = "<group>"; };
+		C47DDD281EF8C6F600F18DAC /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		C47DDD2C1EF8C71000F18DAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C47DDD2E1EF8C71B00F18DAC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C47DDD301EF8C72300F18DAC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C47DDD321EF8C72900F18DAC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C47DDD341EF8C73100F18DAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C47DDD361EF8C73C00F18DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C47DDD381EF8C74300F18DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C47DDD3A1EF8C74B00F18DAC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C47DDD3C1EF8C75200F18DAC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C47DDD3E1EF8C75700F18DAC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C47DDD401EF8C76000F18DAC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C47DDD421EF8C81B00F18DAC /* wjRemotePushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wjRemotePushDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47DDCFA1EF8C6D500F18DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47DDD411EF8C76000F18DAC /* libresolv.tbd in Frameworks */,
+				C47DDD3F1EF8C75700F18DAC /* UserNotifications.framework in Frameworks */,
+				C47DDD3D1EF8C75200F18DAC /* libz.tbd in Frameworks */,
+				C47DDD3B1EF8C74B00F18DAC /* Security.framework in Frameworks */,
+				C47DDD391EF8C74300F18DAC /* UIKit.framework in Frameworks */,
+				C47DDD371EF8C73C00F18DAC /* Foundation.framework in Frameworks */,
+				C47DDD351EF8C73100F18DAC /* CoreGraphics.framework in Frameworks */,
+				C47DDD331EF8C72900F18DAC /* SystemConfiguration.framework in Frameworks */,
+				C47DDD311EF8C72300F18DAC /* CoreTelephony.framework in Frameworks */,
+				C47DDD2F1EF8C71B00F18DAC /* CoreFoundation.framework in Frameworks */,
+				C47DDD2D1EF8C71000F18DAC /* CFNetwork.framework in Frameworks */,
+				C47DDD291EF8C6F600F18DAC /* jcore-ios-1.1.3.a in Frameworks */,
+				C47DDD2A1EF8C6F600F18DAC /* jpush-ios-3.0.5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47DDD131EF8C6D500F18DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47DDCF41EF8C6D500F18DAC = {
+			isa = PBXGroup;
+			children = (
+				C47DDCFF1EF8C6D500F18DAC /* wjRemotePushDemo */,
+				C47DDD191EF8C6D500F18DAC /* wjRemotePushDemoTests */,
+				C47DDCFE1EF8C6D500F18DAC /* Products */,
+				C47DDD2B1EF8C71000F18DAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C47DDCFE1EF8C6D500F18DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDCFD1EF8C6D500F18DAC /* wjRemotePushDemo.app */,
+				C47DDD161EF8C6D500F18DAC /* wjRemotePushDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47DDCFF1EF8C6D500F18DAC /* wjRemotePushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDD421EF8C81B00F18DAC /* wjRemotePushDemo.entitlements */,
+				C47DDD251EF8C6F600F18DAC /* Lib */,
+				C47DDD031EF8C6D500F18DAC /* AppDelegate.h */,
+				C47DDD041EF8C6D500F18DAC /* AppDelegate.m */,
+				C47DDD061EF8C6D500F18DAC /* ViewController.h */,
+				C47DDD071EF8C6D500F18DAC /* ViewController.m */,
+				C47DDD091EF8C6D500F18DAC /* Main.storyboard */,
+				C47DDD0C1EF8C6D500F18DAC /* Assets.xcassets */,
+				C47DDD0E1EF8C6D500F18DAC /* LaunchScreen.storyboard */,
+				C47DDD111EF8C6D500F18DAC /* Info.plist */,
+				C47DDD001EF8C6D500F18DAC /* Supporting Files */,
+			);
+			path = wjRemotePushDemo;
+			sourceTree = "<group>";
+		};
+		C47DDD001EF8C6D500F18DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDD011EF8C6D500F18DAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47DDD191EF8C6D500F18DAC /* wjRemotePushDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDD1A1EF8C6D500F18DAC /* wjRemotePushDemoTests.m */,
+				C47DDD1C1EF8C6D500F18DAC /* Info.plist */,
+			);
+			path = wjRemotePushDemoTests;
+			sourceTree = "<group>";
+		};
+		C47DDD251EF8C6F600F18DAC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDD261EF8C6F600F18DAC /* jcore-ios-1.1.3.a */,
+				C47DDD271EF8C6F600F18DAC /* jpush-ios-3.0.5.a */,
+				C47DDD281EF8C6F600F18DAC /* JPUSHService.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C47DDD2B1EF8C71000F18DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C47DDD401EF8C76000F18DAC /* libresolv.tbd */,
+				C47DDD3E1EF8C75700F18DAC /* UserNotifications.framework */,
+				C47DDD3C1EF8C75200F18DAC /* libz.tbd */,
+				C47DDD3A1EF8C74B00F18DAC /* Security.framework */,
+				C47DDD381EF8C74300F18DAC /* UIKit.framework */,
+				C47DDD361EF8C73C00F18DAC /* Foundation.framework */,
+				C47DDD341EF8C73100F18DAC /* CoreGraphics.framework */,
+				C47DDD321EF8C72900F18DAC /* SystemConfiguration.framework */,
+				C47DDD301EF8C72300F18DAC /* CoreTelephony.framework */,
+				C47DDD2E1EF8C71B00F18DAC /* CoreFoundation.framework */,
+				C47DDD2C1EF8C71000F18DAC /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47DDCFC1EF8C6D500F18DAC /* wjRemotePushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47DDD1F1EF8C6D500F18DAC /* Build configuration list for PBXNativeTarget "wjRemotePushDemo" */;
+			buildPhases = (
+				C47DDCF91EF8C6D500F18DAC /* Sources */,
+				C47DDCFA1EF8C6D500F18DAC /* Frameworks */,
+				C47DDCFB1EF8C6D500F18DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wjRemotePushDemo;
+			productName = wjRemotePushDemo;
+			productReference = C47DDCFD1EF8C6D500F18DAC /* wjRemotePushDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47DDD151EF8C6D500F18DAC /* wjRemotePushDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47DDD221EF8C6D500F18DAC /* Build configuration list for PBXNativeTarget "wjRemotePushDemoTests" */;
+			buildPhases = (
+				C47DDD121EF8C6D500F18DAC /* Sources */,
+				C47DDD131EF8C6D500F18DAC /* Frameworks */,
+				C47DDD141EF8C6D500F18DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47DDD181EF8C6D500F18DAC /* PBXTargetDependency */,
+			);
+			name = wjRemotePushDemoTests;
+			productName = wjRemotePushDemoTests;
+			productReference = C47DDD161EF8C6D500F18DAC /* wjRemotePushDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47DDCF51EF8C6D500F18DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wangjun;
+				TargetAttributes = {
+					C47DDCFC1EF8C6D500F18DAC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6UK4NFK9JE;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C47DDD151EF8C6D500F18DAC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6UK4NFK9JE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C47DDCFC1EF8C6D500F18DAC;
+					};
+				};
+			};
+			buildConfigurationList = C47DDCF81EF8C6D500F18DAC /* Build configuration list for PBXProject "wjRemotePushDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47DDCF41EF8C6D500F18DAC;
+			productRefGroup = C47DDCFE1EF8C6D500F18DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47DDCFC1EF8C6D500F18DAC /* wjRemotePushDemo */,
+				C47DDD151EF8C6D500F18DAC /* wjRemotePushDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47DDCFB1EF8C6D500F18DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47DDD101EF8C6D500F18DAC /* LaunchScreen.storyboard in Resources */,
+				C47DDD0D1EF8C6D500F18DAC /* Assets.xcassets in Resources */,
+				C47DDD0B1EF8C6D500F18DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47DDD141EF8C6D500F18DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47DDCF91EF8C6D500F18DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47DDD081EF8C6D500F18DAC /* ViewController.m in Sources */,
+				C47DDD051EF8C6D500F18DAC /* AppDelegate.m in Sources */,
+				C47DDD021EF8C6D500F18DAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47DDD121EF8C6D500F18DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47DDD1B1EF8C6D500F18DAC /* wjRemotePushDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47DDD181EF8C6D500F18DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47DDCFC1EF8C6D500F18DAC /* wjRemotePushDemo */;
+			targetProxy = C47DDD171EF8C6D500F18DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47DDD091EF8C6D500F18DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47DDD0A1EF8C6D500F18DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47DDD0E1EF8C6D500F18DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47DDD0F1EF8C6D500F18DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47DDD1D1EF8C6D500F18DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C47DDD1E1EF8C6D500F18DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47DDD201EF8C6D500F18DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wjRemotePushDemo/wjRemotePushDemo.entitlements;
+				DEVELOPMENT_TEAM = 6UK4NFK9JE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = wjRemotePushDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wjRemotePushDemo/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.wjRemotePushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47DDD211EF8C6D500F18DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wjRemotePushDemo/wjRemotePushDemo.entitlements;
+				DEVELOPMENT_TEAM = 6UK4NFK9JE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = wjRemotePushDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wjRemotePushDemo/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.wjRemotePushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C47DDD231EF8C6D500F18DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6UK4NFK9JE;
+				INFOPLIST_FILE = wjRemotePushDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.wjRemotePushDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wjRemotePushDemo.app/wjRemotePushDemo";
+			};
+			name = Debug;
+		};
+		C47DDD241EF8C6D500F18DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6UK4NFK9JE;
+				INFOPLIST_FILE = wjRemotePushDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.wjRemotePushDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wjRemotePushDemo.app/wjRemotePushDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47DDCF81EF8C6D500F18DAC /* Build configuration list for PBXProject "wjRemotePushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47DDD1D1EF8C6D500F18DAC /* Debug */,
+				C47DDD1E1EF8C6D500F18DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47DDD1F1EF8C6D500F18DAC /* Build configuration list for PBXNativeTarget "wjRemotePushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47DDD201EF8C6D500F18DAC /* Debug */,
+				C47DDD211EF8C6D500F18DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47DDD221EF8C6D500F18DAC /* Build configuration list for PBXNativeTarget "wjRemotePushDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47DDD231EF8C6D500F18DAC /* Debug */,
+				C47DDD241EF8C6D500F18DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47DDCF51EF8C6D500F18DAC /* Project object */;
+}
