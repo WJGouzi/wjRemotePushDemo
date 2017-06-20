@@ -34,5 +34,9 @@ capabilities >> Push Notificaitons >> On
 
 对于ios的推送证书的配置需要在[苹果开发者中心](https://developer.apple.com/account/ios/certificate/?teamId=6UK4NFK9JE) 进行配置，详细的[介绍](http://www.jianshu.com/p/c2592540a335) 入文章所介绍的。
 
+#### 三、基于极光的SDK开发
+
+有关的开发见官方[文档](https://docs.jiguang.cn/jpush/client/iOS/ios_sdk/)。
+
 
 
